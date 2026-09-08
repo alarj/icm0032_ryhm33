@@ -2,6 +2,9 @@
 
 Lühike juhend, kuidas me seda repot rühmatöö käigus kasutame.
 
+## Dokumendi päritolu
+See juhend on loodud valdavalt Claude.ai poolt.
+
 ## Põhimõte
 
 `main` haru sisaldab alati **kinnitatud, valminud tulemust**. Töö-käigu ja arutelu jaoks kasutame eraldi harusid (branch).
