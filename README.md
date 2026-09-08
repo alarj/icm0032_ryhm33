@@ -6,6 +6,7 @@ TalTech "Tehisaru ettevõttes" mikrokraadikava. Äriarhitektuuri rühmatöö 202
 ## Töö ülesanne ja juhendid
 * Rühmatöö ülesanne on siin: [Rühmatöö ülesanne.md](/00-rühmatöö/Rühmatöö%20ülesanne.md)
 * Tehisaru kasutamisest rühmatöös räägitakse siin: [Tehisaru rühmatöös.md](/00-rühmatöö/Tehisaru%20rühmatöös.md)
+* GIT kasutamisest selles rühmatöös: [Git kasutamine.md](/00-rühmatöö/Git%20kasutamine.md)
 
 ## Viited tulemustele
 - **Faas 1** kokkuvõte
