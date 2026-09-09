@@ -9,11 +9,13 @@ See dokument on loodud Alari poolt, täiendatud OpenAI poolt 9.09.2026
 - Kõik failid peavad olema UTF-8 kodeeringus.
 - Uute failide loomisel ja olemasolevate failide muutmisel tuleb säilitada UTF-8.
 - Kui failis esineb kodeeringuprobleem, tuleb see käsitleda veana ja parandada juurpõhjus, mitte peita sümptomit.
+- Dokumendi formaat, kui ei ole öeldud teisiti, on Markdown (.md)
 - Dokumendil peab olema sisukord kohe dokumendi päritolu peatüki järel, kui dokumendis on vähemalt viis sisulist Markdowni pealkirja tasemetel `##`–`######` või dokument on mahukas — tavavaates ligikaudu üle kahe A4 lehekülje — ja selles on vähemalt kaks sisulist alapeatükki.
 	- „Dokumendi päritolu” pealkiri sisukorra vajaduse hindamisel arvesse ei lähe.
 	- Sisukorda ei ole vaja dokumendile, milles on ainult üks sisuline alapeatükk, ka siis, kui see alapeatükk on pikk.
 - Faili alguses peab olema dokumendi päritolu kohta eraldi nummerdamata peatükk, näiteks: `## Dokumendi päritolu` ja selle all „See dokument on loodud OpenAI poolt.”
 - Faili sisu muutes tuleb kontrollida, et punktide võimalik numeratsioon ja viited paika jäävad ning vajadusel ka need parandada, sealhulgas sisukord.
+- Tekstisisesed allikaviited peavad viitama sama dokumendi `Allikad` jaotise punktidele, näiteks `[1](#allikas-1)`, mitte otse veebilehtedele. Veebiaadressid peavad olema esitatud ainult `Allikad` jaotises ning iga viide peab viima vastava allikapunkti juurde.
 
 ## 2. Enne muudatusi loe läbi allikad
 
