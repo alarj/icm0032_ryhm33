@@ -16,6 +16,11 @@ See dokument on loodud Alari poolt, täiendatud OpenAI poolt 9.09.2026
 - Faili alguses peab olema dokumendi päritolu kohta eraldi nummerdamata peatükk, näiteks: `## Dokumendi päritolu` ja selle all „See dokument on loodud OpenAI poolt.”
 - Faili sisu muutes tuleb kontrollida, et punktide võimalik numeratsioon ja viited paika jäävad ning vajadusel ka need parandada, sealhulgas sisukord.
 - Tekstisisesed allikaviited peavad viitama sama dokumendi `Allikad` jaotise punktidele, näiteks `[1](#allikas-1)`, mitte otse veebilehtedele. Veebiaadressid peavad olema esitatud ainult `Allikad` jaotises ning iga viide peab viima vastava allikapunkti juurde.
+- Dokumentide lisamine, commit'imine ja push'imine on lubatud ainult tööharudes; `main` harusse ei tohi otse muudatusi teha.
+- Enne käske `git add`, `git commit` ja `git push` kontrolli alati aktiivset haru käsuga `git branch --show-current`.
+	- `main` harusse tohib muudatusi otse commit'ida või push'ida ainult siis, kui seda on promptis sõnaselgelt nõutud.
+- Tööharu muudatusi võib `main` harusse ühendada ainult Pull Requesti kaudu. Pull Request tuleb enne merge'imist meeskonnal üle vaadata ja kinnitada vastavalt dokumendis `Git kasutamine.md` kirjeldatud töövoole.
+- Igal commit'il peab olema sisuline commit-sõnum. Commit-sõnum tuleb enne commit'i tegemist kasutajaga kooskõlastada.
 
 ## 2. Enne muudatusi loe läbi allikad
 
