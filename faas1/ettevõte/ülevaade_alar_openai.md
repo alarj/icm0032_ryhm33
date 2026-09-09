@@ -17,14 +17,15 @@ Isikuandmete kaitseks asenda Äriregistrist, ettevõtte veebist või muudest ava
 
 1. [Juhtkokkuvõte](#juhtkokkuvõte)
 2. [Ettevõtte taust](#ettevõtte-taust)
-3. [Visioon ja missioon](#visioon-ja-missioon)
-4. [Tegevusalad ja teenused](#tegevusalad-ja-teenused)
-5. [Kliendid ja väärtuspakkumine](#kliendid-ja-väärtuspakkumine)
-6. [Organisatsioon ja võimekus](#organisatsioon-ja-võimekus)
-7. [Ärimudel ja majandusnäitajad](#ärimudel-ja-majandusnäitajad)
-8. [Strateegiline suund](#strateegiline-suund)
-9. [Järeldus](#järeldus)
-10. [Allikad](#allikad)
+3. [Ärikeskkond](#ärikeskkond)
+4. [Visioon ja missioon](#visioon-ja-missioon)
+5. [Tegevusalad ja teenused](#tegevusalad-ja-teenused)
+6. [Kliendid ja väärtuspakkumine](#kliendid-ja-väärtuspakkumine)
+7. [Organisatsioon ja võimekus](#organisatsioon-ja-võimekus)
+8. [Ärimudel ja majandusnäitajad](#ärimudel-ja-majandusnäitajad)
+9. [Strateegiline suund](#strateegiline-suund)
+10. [Järeldus](#järeldus)
+11. [Allikad](#allikad)
 
 ## Juhtkokkuvõte
 
@@ -65,6 +66,38 @@ Robby & Bobby avalik kuvand toetub kolmele sambale:
 - inimlik ja nõustav partnerlus ettevõtjaga;
 - professionaalselt korrektne ning konfidentsiaalne finantsarvestus;
 - tehnoloogia, automatiseerimine ja juhtimisinfo, mis vähendavad käsitööd ning toetavad kasvu.
+
+## Ärikeskkond
+
+Selles jaotises kirjeldatakse ainult ettevõtte väliskeskkonda. Ettevõtte kliente, sisemist organisatsiooni, võimekusi, tehnoloogilist korraldust ja strateegilist mõju käsitletakse ülevaate teistes peatükkides.
+
+Robby & Bobby tegutseb Eesti raamatupidamise, maksunõustamise ja finantsjuhtimise teenuste turul. Ettevõtte väliskeskkonda kujundavad turu nõudlus, konkurents, õigus- ja majanduskeskkond, tehnoloogia areng ning tööjõuturu olukord.[2](#allikas-2) [3](#allikas-3)
+
+### Turu- ja nõudluskeskkond
+
+Ettevõtete vajadus raamatupidamise, maksuarvestuse ja aruandluse järele tuleneb õiguslikest kohustustest ning püsib üldjuhul sõltumata majandustsüklist. Turu nõudlus muutub aga keerukamaks, sest kasvavad e-kaubandus, rahvusvahelised tehingud, projektipõhine teenusäri ja mitme kanaliga müük. See suurendab nõudlust valdkondliku ekspertiisi ning pelgalt aruandlusest laiema finantsteenuse järele.[2](#allikas-2) [6](#allikas-6)
+
+### Konkurentsikeskkond
+
+Ettevõte tegutseb keskkonnas, kus konkureerivad:
+
+- traditsioonilised Eesti raamatupidamisbürood;
+- suuremad professionaalse teenuse ettevõtted ja rahvusvahelised võrgustikud;
+- digitaalsed raamatupidamisplatvormid ja automatiseeritud iseteeninduslahendused.
+
+Konkurents toimub lisaks hinnale ka teenuse kiiruse, usaldusväärsuse, valdkonnateadmiste, tehnoloogilise mugavuse ja rahvusvahelise ulatuse alusel. HLB Global võrgustiku olemasolu muudab rahvusvahelise ulatuse üheks oluliseks turukeskkonna teguriks.[4](#allikas-4)
+
+### Regulatiivne ja majanduskeskkond
+
+Maksureeglite muutused, rahvusvaheliste tehingute maksukäsitlus, e-kaubanduse eripärad, andmekaitse ja aruandlusnõuded suurendavad teenuse keerukust ning vigade võimalikku mõju. Teenusepakkujalt eeldatakse ajakohaseid teadmisi, konfidentsiaalsust ja korrektset tegutsemist.[2](#allikas-2) [6](#allikas-6)
+
+Majanduskeskkonna aeglustumine võib suurendada klientide hinnatundlikkust ja survet teenusekulusid vähendada. Samal ajal suurendab ebakindlus ettevõtete vajadust rahavoo, kasumlikkuse ja finantsseisu paremini mõista. Eesti raamatupidamisteenuste turul tuleb seetõttu toime tulla samaaegselt hinnasurve ja kasvava nõustamisvajadusega.[3](#allikas-3)
+
+### Tehnoloogia- ja tööjõukeskkond
+
+Automatiseerimine, e-arved, digitaalsed andmevahetuslahendused ja AI muudavad kogu raamatupidamisteenuste turgu. Standardne dokumentide sisestamine ja aruandluse ettevalmistamine muutuvad järjest enam automatiseeritavaks, mistõttu kasvab tehnoloogilise võimekuse ja andmekvaliteedi tähtsus.[7](#allikas-7)
+
+Teine oluline väliskeskkonna tegur on kvalifitseeritud raamatupidajate ja finantsnõustajate kättesaadavus. Spetsialistide nappus ning tööjõukulude kasv suurendavad kogu sektori vajadust protsesse standardiseerida ja tehnoloogiat kasutada.
 
 ## Visioon ja missioon
 

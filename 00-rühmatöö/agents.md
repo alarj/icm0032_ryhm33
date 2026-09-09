@@ -29,6 +29,7 @@ See dokument on loodud Alari poolt, täiendatud OpenAI poolt 9.09.2026
 - Tuvasta ja kirjelda vastuolu konkreetselt: millised dokumendid või väited on omavahel vastuolus ja milles vastuolu seisneb.
 - Küsi vastuolu kohta kinnitust ning tegutse edasi alles pärast selle saamist.
 - Kui töö käigus tekib kahtlus, ära oleta vaid peatu ning küsi üle.
+- Väldi tarbetud ja dokumendi lugemist segavat kordamist nii dokumendi sees (erinevad punktid kirjeldavad sama asja) kui ka dokumentide vahel. Vajadusel viita teistele dokumendipunktidele või dokumendile.
 
 ## 3. Tööpõhimõtted
 - ...
