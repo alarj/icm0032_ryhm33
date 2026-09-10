@@ -1,267 +1,209 @@
-# Ettevõtte kirjeldus
-# Robby & Bobby OÜ ettevõtte ülevaade
+# Pilvebüroo OÜ ettevõtte ja ärikeskkonna ülevaade
 
 ## Dokumendi päritolu
 
-See dokument on koostatud OpenAI poolt 9.09.2026 TalTechis „IT valitsemise ja juhtimise“ aine rühmatöö 1. faasi alusmaterjalina. Ülevaade põhineb ettevõtte veebilehel, e-Äriregistril, avalikel majandusandmetel, erialameedial, ettevõtte avalikel sotsiaalmeedia- ja võrgustikuandmetel ning nende põhjal tehtud analüüsil.
+See dokument on koostatud OpenAI poolt 10.09.2026 TalTechi „IT valitsemise ja juhtimise” aine rühmatöö 1. faasi alusmaterjalina. See tugineb ettevõtte avalikele veebikanalitele, avalikele registri- ja majandusandmetele ning ametlikele Eesti ja EL-i allikatele. Füüsiliste isikute nimed on asendatud tähisega **Xx**. Allikatega otseselt tõendatavad väited on tähistatud viidetega; lõigud või laused märksõnaga **Analüütiline järeldus** on koostaja tõlgendus, mitte ettevõtte ega allika sõnasõnaline väide.
 
-### AI prompt
+## AI prompt
 
-Koosta ettevõtte ülevaade vastavalt projekti dokumentatsioonis toodud reeglitele. Ettevõte on `robbybobby.ee`. Kasuta kogu internetis olevat asjakohast avalikku infot, mitte ainult ettevõtte kodulehte. Käsitle vähemalt ettevõtte tausta, visiooni, missiooni, tegevusalasid, teenuseid, strateegilist suunda, kliente, väärtuspakkumist, organisatsiooni, ärimudelit, majandusnäitajaid ja muud ettevõtte kirjeldamiseks vajalikku infot. Erista allikapõhised faktid analüütilistest järeldustest ning lisa kasutatud allikad.
+Koosta ettevõtte ülevaade vastavalt projekti dokumentatsioonis toodud reeglitele. Ettevõte on `https://pilvebyroo.ee/`. Kasuta kogu internetis olevat asjakohast avalikku infot, mitte ainult ettevõtte kodulehte. Käsitle vähemalt ettevõtte tausta, visiooni, missiooni, tegevusalasid, teenuseid, strateegilist suunda, kliente, väärtuspakkumist, organisatsiooni, ärimudelit, majandusnäitajaid ja muud ettevõtte kirjeldamiseks vajalikku infot. Erista allikapõhised faktid analüütilistest järeldustest ning lisa kasutatud allikad.
 
-Selle ülesande tulemusena loo ainult ettevõtte ja ärikeskkonna kirjeldus. 
-Ärikeskkonna kirjeldus käsitleb ainult väliskeskkonda -- turg, nõudlus, konkurents, regulatsioonid ja majanduskeskkond, tehnoloogia, tööjõud.
-Ära lisa SWOT-analüüsi ega järgmise aasta eesmärke, sest need ei kuulu selle ülesande praegusesse ulatusse. Salvesta tulemus kausta `faas1/ettevõte/ülevaade_isik_mudel.md`, kus `isik` asendatakse dokumendi koostaja tegeliku isiku nimega ja `mudel` kasutatud AI-mudeli nimega.
+Selle ülesande tulemusena loo ainult ettevõtte ja ärikeskkonna kirjeldus. Ärikeskkonna kirjeldus käsitleb ainult väliskeskkonda — turg, nõudlus, konkurents, regulatsioonid ja majanduskeskkond, tehnoloogia, tööjõud. Ära lisa SWOT-analüüsi ega järgmise aasta eesmärke, sest need ei kuulu selle ülesande praegusesse ulatusse. Salvesta tulemus kausta `faas1/ettevõte/ülevaade_isik_mudel.md`, kus `isik` asendatakse dokumendi koostaja tegeliku isiku nimega alar ja `mudel` kasutatud AI-mudeli nimega openai.
 
 Isikuandmete kaitseks asenda Äriregistrist, ettevõtte veebist või muudest avalikest allikatest leitud füüsiliste isikute nimed tähistega `Xx`, `Yy`, `Zz` jne. Kasuta sama tähist sama isiku puhul kogu dokumendis, et isikud oleksid eristatavad, kuid nende tegelikud nimed ei kuvataks. Ära avalda ka isikute nimesid sisaldavaid liigseid tekstilisi viiteid, kui need ei ole ettevõtte kirjeldamiseks vajalikud.
 
 ## Sisukord
 
 1. [Juhtkokkuvõte](#juhtkokkuvõte)
-2. [Ettevõtte taust](#ettevõtte-taust)
-3. [Ärikeskkond](#ärikeskkond)
-4. [Visioon ja missioon](#visioon-ja-missioon)
-5. [Tegevusalad ja teenused](#tegevusalad-ja-teenused)
-6. [Kliendid ja väärtuspakkumine](#kliendid-ja-väärtuspakkumine)
-7. [Organisatsioon ja võimekus](#organisatsioon-ja-võimekus)
-8. [Ärimudel ja majandusnäitajad](#ärimudel-ja-majandusnäitajad)
-9. [Strateegiline suund](#strateegiline-suund)
-10. [Järeldus](#järeldus)
-11. [Allikad](#allikad)
+2. [Ettevõtte taust ja identiteet](#ettevõtte-taust-ja-identiteet)
+3. [Visioon, missioon ja strateegiline suund](#visioon-missioon-ja-strateegiline-suund)
+4. [Tegevusalad, teenused ja väärtuspakkumine](#tegevusalad-teenused-ja-väärtuspakkumine)
+5. [Kliendid, kanalid ja organisatsioon](#kliendid-kanalid-ja-organisatsioon)
+6. [Ärimudel ja majandusnäitajad](#ärimudel-ja-majandusnäitajad)
+7. [Ärikeskkond](#ärikeskkond)
+8. [Piirangud ja järeldus](#piirangud-ja-järeldus)
+9. [Allikad](#allikad)
 
 ## Juhtkokkuvõte
 
-Robby & Bobby OÜ on 2017. aastal asutatud Eesti raamatupidamis- ja finantsjuhtimisettevõte, mille põhitegevusala on EMTAK 69202 „Raamatupidamine, maksualane nõustamine“. Ettevõte on positsioneerinud end tavapärasest raamatupidamisbüroost laiemalt: eesmärk on olla ettevõtja finantspartner, kes ühendab korrektse arvestuse, tehnoloogia, finantsanalüüsi ja praktilise nõustamise. [1](#allikas-1)
+Pilvebüroo OÜ on 25.04.2013 asutatud Eesti osaühing (registrikood 12462195), mille 2025. aasta põhitegevus oli muu mujal liigitamata õpe. Samal aastal teenis ettevõte 115 282 eurot müügitulu ja 3 625 eurot puhaskasumit. Ettevõte on käibemaksukohustuslane ning registreeritud e-arvete vastuvõtjaks. [1](#allikas-1) [2](#allikas-2)
 
-Ettevõtte peamine sihtgrupp on Eesti mikro-, väikese ja keskmise suurusega ettevõtted, eriti professionaalsete teenuste, e-kaubanduse, investeerimise ja põllumajanduse valdkonnas. Kodulehel toodud peamised väärtused on korrektne ja läbipaistev raamatupidamine, parem juhtimisinfo, rahavoo ja kasumlikkuse mõistmine ning protsesside automatiseerimine. [2](#allikas-2)
+Ettevõtte avalik kuvand ühendab kolm tegevussuunda: väikeettevõtjatele pakutav raamatupidamis- ja finantsnõustamise ekspertiis, digitaalsed õppe- ja kirjastustooted ning erialane sisuturundus blogi, e-posti ning kogukonna kaudu. Avalike andmete järgi oli 2024. aasta tulust 53,83% seotud õppega, 41,84% kirjastamisega ja 4,33% juhtimisalase nõustamisega. [3](#allikas-3)
 
-2025. aastal oli müügitulu ligikaudu 732 700 eurot ja kasum ligikaudu 25 900 eurot. Käive kasvas 2024. aastaga võrreldes umbes 2,6%, kuid ärimarginaal jäi ligikaudu 3,5% tasemele. See viitab olukorrale, kus ettevõttel on tugev teenusemaht ja kasvupotentsiaal, kuid järgmise kasvuetapi keskne juhtimisküsimus on kasumlikkus töötaja, kliendi ja teenuseliini kohta. [3](#allikas-3)
+**Analüütiline järeldus.** Pilvebüroo on ekspertteadmistele rajatud mikroettevõte, mille ärimudel ei piirdu töömahuka üks-ühele raamatupidamisteenusega. Digiraamatud ja videokursused võimaldavad sama teadmise müümist paljudele ostjatele; nõustamine ja raamatupidamisteenus pakuvad seejuures kõrgema usaldusväärtusega, kuid vähem skaleeritavat osa. Selline kombinatsioon eristab ettevõtet puhtast raamatupidamisbüroost.
 
-2026. aasta oluline areng on liitumine HLB Global võrgustikuga ning tegutsemine Eestis HLB Estonia kaubamärgi all. See loob võimaluse pakkuda senisest usaldusväärsemalt rahvusvahelist tuge, kuid suurendab ka vajadust selge brändi-, teenuse- ja kvaliteedimudeli järele. [4](#allikas-4)
-
-## Ettevõtte taust
+## Ettevõtte taust ja identiteet
 
 ### Põhiandmed
 
-| Näitaja | Avalik info |
+| Näitaja | Avalik teave |
 |---|---|
-| Ärinimi | Robby & Bobby OÜ |
-| Registrikood | 14295172 |
-| Õiguslik vorm | Osaühing |
-| Registreeritud | 14.07.2017 |
-| Varasem ärinimi | DStream Accounting OÜ |
-| Põhitegevusala | Raamatupidamine, maksualane nõustamine (EMTAK 69202) |
+| Ärinimi | Pilvebüroo OÜ |
+| Registrikood | 12462195 |
+| Asutatud | 25.04.2013 |
+| Õiguslik vorm | osaühing |
 | Osakapital | 2 500 eurot |
-| Aadress | A. H. Tammsaare tee 92, Tallinn |
-| Juhatuse liikmed / võtmeisikud | Xx ja Yy |
-| Tegelikud kasusaajad | Xx ja Yy kaudse omanduse kaudu |
-| Veeb | [robbybobby.ee](#allikas-2) |
+| Asukoht | Tallinn, Mustamäe |
+| Käibemaksukohustus | jah, KMKR EE101681409 |
+| E-arvete vastuvõtt | jah, teenusepakkuja Arvekeskus |
+| Juhtimine ja omand | juhatuse liige ning 100% omanik Xx |
 
-Ettevõtte registriandmed näitavad, et tegemist on Eesti omanduses oleva osaühinguga, mille tegevus on keskendunud ühele põhitegevusalale. 2025. aasta aruanne esitati e-Äriregistri järgi 30.06.2026. [5](#allikas-5)
+Põhiandmed pärinevad avalikest registriandmeid vahendavatest teenustest; 2025. aasta majandusaasta aruanne on esitatud. [1](#allikas-1) [2](#allikas-2)
 
-### Kujunemislugu ja identiteet
+Pilvebüroo loodi 2013. aastal online-raamatupidamis- ja nõustamisettevõttena. Asutaja Xx varasema avaliku karjäärikirjelduse järgi on tal kogemus finantsjuhtimise, pearaamatupidamise, audiitluse ning eri haridusvaldkondadega; see selgitab ettevõtte tugevat ekspertbrändi. [4](#allikas-4)
 
-Ettevõtte eelmine ärinimi oli DStream Accounting OÜ. Avaliku kodulehe järgi loodi Robby & Bobby selleks, et muuta raamatupidamine ettevõtjale kasulikuks juhtimistööriistaks, mitte üksnes seadusest tulenevaks kohustuseks. Ettevõtte identiteeti kannavad kaks partnerit: Xx vastutab peamiselt teenusearenduse, turunduse, müügi ja keerukate finantsteemade eest ning Yy IT-arenduste ja automatiseerimise eest. [1](#allikas-1)
+Ettevõtte enda materjali järgi kasvas Pilvebüroo blogi välja korduvatest maksu- ja raamatupidamisküsimustest. Sellest arendati välja eraldi koolituse veebikeskkond `pilvekool.ee`, kus on e-raamatud, videokursused ja liikmelisusel põhinev kogukond. [5](#allikas-5) [6](#allikas-6)
 
-Robby & Bobby avalik kuvand toetub kolmele sambale:
+## Visioon, missioon ja strateegiline suund
 
-- inimlik ja nõustav partnerlus ettevõtjaga;
-- professionaalselt korrektne ning konfidentsiaalne finantsarvestus;
-- tehnoloogia, automatiseerimine ja juhtimisinfo, mis vähendavad käsitööd ning toetavad kasvu.
+### Avalikult tuvastatav positsioneerimine
 
-## Ärikeskkond
+Ettevõtte avalikest materjalidest ei ilmne eraldi ametlikult sõnastatud visiooni ega missiooni. Seetõttu ei esitata järgmist kahte lauset ettevõtte ametliku visiooni või missioonina, vaid dokumenteeritud positsioneerimise kokkuvõttena.
 
-Selles jaotises kirjeldatakse ainult ettevõtte väliskeskkonda. Ettevõtte kliente, sisemist organisatsiooni, võimekusi, tehnoloogilist korraldust ja strateegilist mõju käsitletakse ülevaate teistes peatükkides.
+**Positsioneerimisest tuletatud visioon:** teha kaasaegne, digivõimekas ja ettevõtjale arusaadavalt selgitatud raamatupidamis- ning finantsoskus laialt kättesaadavaks.
 
-Robby & Bobby tegutseb Eesti raamatupidamise, maksunõustamise ja finantsjuhtimise teenuste turul. Ettevõtte väliskeskkonda kujundavad turu nõudlus, konkurents, õigus- ja majanduskeskkond, tehnoloogia areng ning tööjõuturu olukord.[2](#allikas-2) [3](#allikas-3)
+**Positsioneerimisest tuletatud missioon:** aidata ettevõtjatel ja raamatupidajatel kasutada korrektset finantsinfot, maksu- ja arvestusteadmist ning digivahendeid paremate otsuste ja tõhusama töökorralduse jaoks.
 
-### Turu- ja nõudluskeskkond
+Sõnastuste alus on ettevõtte kirjeldus „kaasaegsest raamatupidamisest”: automatiseeritud andmesisestus, väärtusliku finantsinfo loomine ning erialaste, suhtlus- ja IT-oskustega raamatupidaja. Ettevõte rõhutab, et klient ei ole üldjuhul raamatupidamisekspert ja info peab olema selges keeles. [7](#allikas-7)
 
-Ettevõtete vajadus raamatupidamise, maksuarvestuse ja aruandluse järele tuleneb õiguslikest kohustustest ning püsib üldjuhul sõltumata majandustsüklist. Turu nõudlus muutub aga keerukamaks, sest kasvavad e-kaubandus, rahvusvahelised tehingud, projektipõhine teenusäri ja mitme kanaliga müük. See suurendab nõudlust valdkondliku ekspertiisi ning pelgalt aruandlusest laiema finantsteenuse järele.[2](#allikas-2) [6](#allikas-6)
+### Täheldatav strateegiline suund
 
-### Konkurentsikeskkond
+Avalikest allikatest saab eristada järgmisi juba toimivaid suundi.
 
-Ettevõte tegutseb keskkonnas, kus konkureerivad:
+- **Ekspertteadmise toodestamine.** E-raamatute, videokursuste ja profiklubi kaudu muudetakse nõustamises kogunenud teadmine korduvalt müüdavateks digitaalseteks toodeteks. Veebipoes on vähemalt 22 e-raamatu toodet; pärast makset saab ostja kursusekeskkonnas materjalidele ligipääsu. [6](#allikas-6) [8](#allikas-8)
+- **Sisu kaudu usalduse ja nõudluse loomine.** Avalik blogi käsitleb makse, raamatupidamist, ettevõtlust ja finantsjuhtimist. Ettevõtte enda avalduse järgi on veebis kuus 15 000–20 000 lugejat, meililistis ligikaudu 8 000 ja Facebooki grupis üle 4 000 liikme; need on ettevõtte enda turundusnäitajad, mitte sõltumatult auditeeritud mõõdikud. [5](#allikas-5)
+- **Raamatupidajast nõustajaks liikumine.** Blogi käsitleb lisaks seadusjärgsele arvestusele rahavoogu, marginaali, kulustruktuuri ja finantsjuhtimise teenuse hinnastamist. See on sisuline signaal soovist nihkuda tehingute töötlemiselt otsuste toetamise poole. [9](#allikas-9) [10](#allikas-10)
+- **Digitaalne töökorraldus.** Ettevõtte ekspertsisu rõhutab e-arveid, ostuarvete ja tšekkide digiteerimist ning eri tarkvarade ühendamist raamatupidamisprogrammiga. [7](#allikas-7)
 
-- traditsioonilised Eesti raamatupidamisbürood;
-- suuremad professionaalse teenuse ettevõtted ja rahvusvahelised võrgustikud;
-- digitaalsed raamatupidamisplatvormid ja automatiseeritud iseteeninduslahendused.
+**Analüütiline järeldus.** Strateegia tuum on eksperdi isikliku usalduskapitali võimendamine digitaalse sisu ja kogukonna abil. See suurendab ühe spetsialisti haaret, kuid tähendab, et brändi, sisu kvaliteedi ja eksperdi kättesaadavuse vahel on tugev seos.
 
-Konkurents toimub lisaks hinnale ka teenuse kiiruse, usaldusväärsuse, valdkonnateadmiste, tehnoloogilise mugavuse ja rahvusvahelise ulatuse alusel. HLB Global võrgustiku olemasolu muudab rahvusvahelise ulatuse üheks oluliseks turukeskkonna teguriks.[4](#allikas-4)
+## Tegevusalad, teenused ja väärtuspakkumine
 
-### Regulatiivne ja majanduskeskkond
+### Tegevusalad
 
-Maksureeglite muutused, rahvusvaheliste tehingute maksukäsitlus, e-kaubanduse eripärad, andmekaitse ja aruandlusnõuded suurendavad teenuse keerukust ning vigade võimalikku mõju. Teenusepakkujalt eeldatakse ajakohaseid teadmisi, konfidentsiaalsust ja korrektset tegutsemist.[2](#allikas-2) [6](#allikas-6)
+2024. aasta avalike tegevusalaandmete järgi tuli müügitulust 53,83% EMTAK 85599 „muu mujal liigitamata õpe” alt, 41,84% raamatute ja brošüüride kirjastamisest ning 4,33% äri- ja muust juhtimisalasest nõustamisest. 2023. aasta tegevusaruande kokkuvõte kirjeldab ettevõtte tegevusena e-raamatute kirjastamist ja koolitust. [3](#allikas-3) [11](#allikas-11)
 
-Majanduskeskkonna aeglustumine võib suurendada klientide hinnatundlikkust ja survet teenusekulusid vähendada. Samal ajal suurendab ebakindlus ettevõtete vajadust rahavoo, kasumlikkuse ja finantsseisu paremini mõista. Eesti raamatupidamisteenuste turul tuleb seetõttu toime tulla samaaegselt hinnasurve ja kasvava nõustamisvajadusega.[3](#allikas-3)
+Avaliku tootevaliku ja sisu põhjal hõlmab pakkumine vähemalt:
 
-### Tehnoloogia- ja tööjõukeskkond
+- raamatupidamise, maksude, palgaarvestuse, omakapitali ja dividendide teemalisi e-raamatuid;
+- videokursusi, sh juhtimisaruandluse ja kaasaegse raamatupidamise teemasid;
+- profiklubi/õppekogukonda;
+- raamatupidamisteenust ja finantsinfo või -nõu jagamist ettevõtjatele;
+- blogisisu ning tasulise teenusena käsitletavat finantsjuhtimise nõustamist. [5](#allikas-5) [6](#allikas-6) [8](#allikas-8) [9](#allikas-9)
 
-Automatiseerimine, e-arved, digitaalsed andmevahetuslahendused ja AI muudavad kogu raamatupidamisteenuste turgu. Standardne dokumentide sisestamine ja aruandluse ettevalmistamine muutuvad järjest enam automatiseeritavaks, mistõttu kasvab tehnoloogilise võimekuse ja andmekvaliteedi tähtsus.[7](#allikas-7)
+### Väärtuspakkumine
 
-Teine oluline väliskeskkonna tegur on kvalifitseeritud raamatupidajate ja finantsnõustajate kättesaadavus. Spetsialistide nappus ning tööjõukulude kasv suurendavad kogu sektori vajadust protsesse standardiseerida ja tehnoloogiat kasutada.
+Pilvebüroo lubadus ei seisne pelgalt raamatupidamiskande tegemises. Avalikud materjalid väärtustavad kolme tulemit: kiiremat ja väiksema käsitööga andmesisestust, juhtimiseks kasutatavat finantsinfot ning oskust selgitada seda mitte-eksperdile. [7](#allikas-7)
 
-## Visioon ja missioon
+**Analüütiline järeldus.** Kliendiväärtus tekib kahel tasandil. Esmalt vähendab ettevõte teadmislünka — ettevõtja või raamatupidaja saab maksude ja aruandluse kohta praktilise vastuse. Teiseks aitab see muuta finantsandmed juhtimise sisendiks. Digitoote puhul on ostja väärtus iseseisev, kohene ja madalama hinnaga ligipääs; personaalse teenuse puhul on väärtus kohandatud tõlgendus ja vastutus.
 
-Ettevõte ei esita avalikel kanalitel eraldi ametlikult sõnastatud „visiooni“ ja „missiooni“. Allolevad sõnastused on seetõttu rühmatöö jaoks koostatud analüütilised ettepanekud, mis lähtuvad ettevõtte avalikust positsioneerimisest, teenustest ja juhtkonna kirjeldustest.
+## Kliendid, kanalid ja organisatsioon
 
-### Soovituslik visioon
+### Kliendid ja kanalid
 
-**Olla Eesti ettevõtjate kõige usaldusväärsem ja tehnoloogiapõhisem finantspartner, kes muudab numbrid selgeks juhtimisotsusteks ning aitab ettevõtetel kasvada kasumlikult ka rahvusvahelises keskkonnas.**
+Ettevõtte enda kirjelduse järgi pakutakse kolme raamatupidaja abiga raamatupidamisteenust enam kui 50 ettevõttele ning finantsinfot suurele hulgale ettevõtjatele. Tootevalik käsitleb nii ettevõtja kui ka raamatupidaja vajadusi: näiteks palgaarvestust, mittetulundusühingute makse, omakapitali ja juhtimisaruandlust. [5](#allikas-5) [12](#allikas-12) [13](#allikas-13)
 
-Visioon seob ettevõtte praeguse tugevuse — raamatupidamise ja finantsjuhtimise — järgmise kasvusuunaga: HLB võrgustiku toel rahvusvahelisem teenus, suurem tehnoloogiline võimekus ja selgem mõju kliendi ärile.
+Peamised nähtavad kliendini jõudmise kanalid on tasuta blogi, veebipood, e-post, sotsiaalmeedia kogukond, otsene konsultatsioon ja olemasolev raamatupidamisteenuse kliendisuhe. Veebipoe makse toimub makselahenduse kaudu ning ostjale luuakse pärast tasumist konto kursusematerjalide kasutamiseks. [5](#allikas-5)
 
-### Soovituslik missioon
+**Analüütiline järeldus.** Tasuta sisu toimib nõudluse tekitaja ja usalduse loojana; selle järel saavad osad lugejad osta standardiseeritud digitoote ning osa vajada personaalset teenust. Seega on tegemist sisupõhise müügilehtri, mitte ainult klassikalise pakkumise-vastuvõtmise teenusmüügiga.
 
-**Anname ettevõtjale õigeaegse ja arusaadava finantsinfo, ühendades pühendunud spetsialistid, kaasaegse tehnoloogia ja praktilise nõustamise, et klient saaks teha paremaid otsuseid ning hoida oma äri kontrolli all.**
+### Organisatsioon
 
-Missioon väljendab seda, mida Robby & Bobby igapäevaselt teeb: peab arvestust korras, vähendab finants- ja maksuvigu, muudab juhtimisinfo kasutatavaks ning toetab klienti rahavoo, kasumlikkuse, protsesside ja kasvu juhtimisel.
+Registriandmete järgi on Xx nii juhatuse liige kui ainuosanik. Avalik enesekirjeldus räägib Xx-st ja kolmest raamatupidajast. Samal ajal näitavad avalikud tööjõumaksuandmed 2026. aasta II kvartalis nulli töötajat. [1](#allikas-1) [2](#allikas-2) [5](#allikas-5)
 
-## Tegevusalad ja teenused
-
-### Põhitegevus
-
-Registri- ja majandusandmete järgi moodustab raamatupidamine ja maksualane nõustamine ettevõtte müügitulust 100%. Teenuste avaliku kirjeldustiku põhjal on põhitegevus jagunenud järgmisteks omavahel seotud võimekusteks:
-
-1. raamatupidamine ja finantsarvestus;
-2. maksuarvestus ja maksunõustamine;
-3. palgaarvestus ning tööjõumaksude arvestus;
-4. majandusaasta aruanded, statistika ja auditiks ettevalmistumine;
-5. juhtimisaruandlus, finantsanalüüs ja kasumlikkuse hindamine;
-6. rahavoo, hinnastamise ja protsesside nõustamine;
-7. finantsprotsesside automatiseerimine ja süsteemide liidestamine. [2](#allikas-2)
-
-### Valdkondlikud fookused
-
-| Fookus | Kliendi tüüpiline olukord | Robby & Bobby lahenduse sisu |
-|---|---|---|
-| E-kaubandus | Mitmed müügikanalid, valuutad, makselahendused, laoseis, tagastused ja käibemaksuriskid | E-poe ja makselahenduste ühendused, OSS/IOSS, kanalipõhine kasumlikkus ja automatiseeritud arvestus |
-| Professionaalsed teenused | Kasumlikkus sõltub inimeste ajast, hinnastamisest ja projektidest | Kliendi-, projekti- ja teenuseliini tasuvus, tööjõukulu analüüs, rahavoo ja hinnastamise juhtimine |
-| Investeerimine | Mitme investeeringu, väärtpaberi või keerukate tehingute arvestus | Investeeringute ja finantstehingute arvestus ning nõustamine |
-| Põllumajandus ja tootmine | Hooajalisus, varud, toetused, põhivara ja kulude jälgitavus | Valdkonnale sobiv arvestus ja juhtimisinfo |
-
-Kodulehel avaldatud hinnakiri näitab, et teenust pakutakse nii standardiseeritud Basic- ja Standard-pakettidena kui ka kohandatud Plus-lahendusena. See võimaldab katta väiksemaid ettevõtteid, kuid säilitada võimaluse teenindada keerukama töövooga ja kasvavaid kliente. [6](#allikas-6)
-
-### Tehnoloogia ja automatiseerimine
-
-Ettevõtte tehnoloogiline eristus tuleneb partneri Yy pikaajalisest kogemusest raamatupidamise automatiseerimisel, CRM-i, ärianalüütika ja e-arvetega. 2025. aasta tegevusaruande avalikus kokkuvõttes nimetatakse automatiseeritud tööprotsesside arendamist, digitaalse andmevahetuse täiustamist, tehisintellekti kasutusvõimaluste analüüsimist ja AI-tööriistade piloteerimist dokumentide töötlemisel, andmeanalüüsil ning kliendisuhtluse toetamisel. [7](#allikas-7)
-
-See annab rühmatöö jaoks selge tehnoloogilise lähtekoha: Robby & Bobby ei müü ainult töötunde, vaid püüab ehitada korduvkasutatavat ja osaliselt automatiseeritud teenusemudelit.
-
-## Kliendid ja väärtuspakkumine
-
-### Sihtkliendid
-
-Avaliku info põhjal teenindab ettevõte peamiselt Eesti mikro-, väikese ja keskmise suurusega ettevõtteid. Kodulehe ja LinkedIni järgi kuuluvad sihtgruppi ka suuremad ettevõtted, Amazoni müüjad, e-poed, iduettevõtted ning rahvusvahelisi tehinguid tegevad kliendid. [2](#allikas-2) [8](#allikas-8)
-
-Kõige sobivam kliendiprofiil on kasvav ettevõte, kellel:
-
-- on vaja enamat kui dokumentide sisestamist ja maksudeklaratsioonide esitamist;
-- suureneb tehingute, kanalite, töötajate või riikide arv;
-- puudub sisemine finantsjuht või piisav juhtimisaruandlus;
-- on vaja mõista tegelikku kasumlikkust ja rahavoogu;
-- on valmis kasutama elektroonilisi ja automatiseeritud töövooge.
-
-### Kliendile lubatav väärtus
-
-Robby & Bobby kliendiväärtus kujuneb nelja astmena:
-
-1. **Korrektne alus:** arvestus, maksud ja aruandlus on õigeaegsed ning usaldusväärsed.
-2. **Selgus:** juht saab aru, mida numbrid tema äri kohta tähendavad.
-3. **Kontroll:** klient näeb rahavoogu, kasumlikkust, kulusid ja protsesside pudelikaelu.
-4. **Kasvuvõime:** tehnoloogia ja nõustamine aitavad töömahtu kasvatada ilma käsitöö ja riskide samas proportsioonis kasvamiseta.
-
-Veebilehel avaldatud klienditagasiside rõhutab kiiret reageerimist, rahvusvaheliste maksuteemade kompetentsi, keerukate finantstehingute lahendamist ja partneri kaasamõtlemist. Neid väiteid tuleb käsitleda ettevõtte enda avaldatud kliendilugudena, mitte sõltumatult auditeeritud kliendirahulolu mõõdikuna. [2](#allikas-2)
-
-## Organisatsioon ja võimekus
-
-Ettevõtte tuumik on partneripõhine. Ühel partneril on avaliku profiili järgi üle 20 aasta raamatupidamise kogemust, sealhulgas rahvusvaheliste kontsernide pearaamatupidajana. Teisel partneril on ettevõtte enda kirjelduse järgi ligikaudu 30 aastat kogemust raamatupidamise automatiseerimisel ja finantstehnoloogia lahendustes. [1](#allikas-1)
-
-Igapäevast teenust osutab mitmetasandiline tiim, kuhu kuuluvad vanemraamatupidajad, raamatupidajad ja nooremraamatupidajad. Vanemraamatupidajad juhivad klienditööd ning lahendavad keerulisemaid raamatupidamis- ja maksuküsimusi; kvaliteeti ja tööstandardeid toetab pearaamatupidaja ning kvaliteedisüsteem. Kodulehe järgi on enamikul spetsialistidest Eesti raamatupidaja 5. või 6. taseme kutsetunnistus. [1](#allikas-1)
-
-2025. aasta majandusandmetes kajastus 11 töötajat; 2026. aasta esimeses kvartalis oli avalike maksuandmete põhjal töötajaid 13. See on piisav suurus, et standardiseerimine, rollijaotus ja teadmiste jagamine hakkaksid mõjutama nii teenuse kvaliteeti kui ka marginaali. [3](#allikas-3) [9](#allikas-9)
-
-Olulised organisatsioonilised sõltuvused on:
-
-- partnerite teadmiste ja kliendisuhete kontsentratsioon;
-- kvalifitseeritud raamatupidajate kättesaadavus;
-- standardiseeritud töövood ja kvaliteedikontroll;
-- tehnoloogiliste liidestuste toimivus;
-- klientide dokumentide õigeaegsus ja andmekvaliteet.
+Need andmed ei ole tingimata vastuolus: avalik „kolme raamatupidaja abiga” väide ei täpsusta töölepingulist suhet ega väite kuupäeva. **Analüütiline järeldus:** tegemist võib olla väikesemahulise partneri-, käsundus- või alltöövõtjate võrgustikuga, kuid seda ei saa avaliku info põhjal kinnitada. Dokumendis ei käsitata väidetavat töökorraldust faktina.
 
 ## Ärimudel ja majandusnäitajad
 
 ### Tululoogika
 
-Ettevõtte tulud tulevad peamiselt korduvast B2B teenusest: kuupõhisest raamatupidamisest, maksuarvestusest ja lisateenustest. Lisaks on eraldi hinnastatud või pakkumise alusel finantsnõustamine, palgaarvestus, aastaaruanne, auditiks ettevalmistumine, statistikad ja varasemate perioodide korrastamine. [6](#allikas-6)
+**Analüütiline järeldus.** Pilvebüroo ühendab B2C- ja B2B-tuluallikaid: B2C poolel müüakse üksikuid e-raamatuid ja videokursusi ning kogukonna ligipääsu, B2B poolel on raamatupidamisteenus ja juhtimisalane nõustamine. Veebipoe mudelis järgneb maksele konto loomine ja sisu kasutusõigus; see võimaldab digitoote edastamist ilma iga ostu puhul sama palju käsitööd tegemata. [5](#allikas-5) [6](#allikas-6)
 
-Mudeli tugevus on korduv tulu ja pikaajaline kliendisuhe. Mudeli piirang on tööjõumahukus: kui teenus kasvab peamiselt inimeste arvu ja töötundide lisamisega, võib käive suureneda kiiremini kui kasumlikkus.
+| Näitaja | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|
+| Müügitulu | 117 692 €* | 120 037 € | 115 282 € |
+| Tulemus | – | 967 € ärikasum | 3 625 € puhaskasum |
+| Tegevusala suurim osakaal | ärinõustamine 58,23% | õpe 53,83% | õpe (registriallikas põhitegevus) |
 
-### Avalikud finantsnäitajad
+\*2023 müügitulu on arvutatud avaldatud tegevusalade summana (68 531 + 45 304 + 3 857 eurot). 2024. ja 2025. aasta tulemused pärinevad eri andmevahendajatelt ning kasumiread ei ole samaliigilised (ärikasum vs puhaskasum), mistõttu neid ei tohi võrrelda kui ühtset kasumimarginaali aegrida. [1](#allikas-1) [3](#allikas-3) [11](#allikas-11)
 
-| Näitaja | 2023 | 2024 | 2025 | Tõlgendus |
-|---|---:|---:|---:|---|
-| Müügitulu | 719 465 € | 713 923 € | 732 723 € | 2025. aastal mõõdukas taastumine |
-| Kasum | –9 080 € | 448 € | ca 25 900 € | Kasumlikkus paranes oluliselt, kuid jäi tagasihoidlikuks |
-| Töötajad | 14 | 11 | 11 | Väikese tiimi kõrge teadmiste osakaal |
-| Põhitegevuse osakaal käibest | 100% | 100% | 100% | Selge fookus, samas kontsentratsioonirisk |
+2025. aasta müügitulu vähenes 2024. aastaga võrreldes 4,0% (4 755 eurot). 2025. aasta puhaskasumi ja müügitulu suhtarv oli ligikaudu 3,1%. See arvutus on tehtud avaldatud näitajate põhjal. [1](#allikas-1) [3](#allikas-3)
 
-Allikad esitavad 2025. aasta kasumi kohta väikese erinevusega 25 794–25 898 eurot; siin on kasutatud ümardatud suurusjärku, et vältida näilise täpsuse ületähtsustamist. [3](#allikas-3) [5](#allikas-5)
+**Analüütiline järeldus.** Väike kasumimarginaal koos tulude kerge langusega viitab sellele, et ettevõtte tulemuslikkus sõltub kulude kontrollist ning sellest, kui suur osa müügist tuleb korduvkasutatavatest digitooteist võrreldes personaalse tööga. Avalikest andmetest ei saa tuletada kliendipõhist kasumlikkust ega kindlalt eristada kursuste, raamatute ja nõustamise brutomarginaali.
 
-### Majanduslik järeldus
+## Ärikeskkond
 
-Robby & Bobby on saavutanud umbes 0,7 miljoni eurose aastakäibe, kuid marginaal on endiselt õhuke. Seetõttu peaks järgmine arenguetapp keskenduma mitte ainult uute klientide hankimisele, vaid eelkõige kolmele küsimusele:
+See peatükk käsitleb ainult Pilvebüroo väliskeskkonda: turgu ja nõudlust, konkurentsi, regulatsioone ja majandust, tehnoloogiat ning tööjõudu. Ettevõtte sisemisi tugevusi või järgmise aasta eesmärke siin ei seata.
 
-1. millised kliendid ja teenuseliinid on tegelikult kasumlikud;
-2. milliseid tööetappe saab automatiseerida või standardiseerida;
-3. kuidas muuta kõrgema väärtusega finantsjuhtimine suuremaks ja mõõdetavaks tulukomponendiks.
+### Turg ja nõudlus
 
-## Strateegiline suund
+Pilvebüroo asub raamatupidamis-, maksuteadmise, ettevõtluskoolituse ja digitaalse erialakirjastamise kokkupuutepunktis. Nõudluse baas on püsiv, sest iga Eestis registreeritud juriidiline isik ja füüsilisest isikust ettevõtja on raamatupidamiskohustuslane. [14](#allikas-14)
 
-### Senine strateegiline loogika
+Nõudlust toetab ka ettevõtjate vajadus mõista muutuvat maksu- ja arvestuskeskkonda. 2025. aasta juulist on Eesti standardne käibemaksumäär 24% ning 2026. aastal see ei muutu; muudatus tähendab praktilist õppimis- ja nõustamisvajadust nii ettevõtjatele kui raamatupidajatele. [15](#allikas-15)
 
-Avalikest allikatest joonistub välja strateegia, mille keskmes on:
+**Analüütiline järeldus.** Pilvebüroo nõudlus ei sõltu ainult uute ettevõtete arvust. Iga regulatsiooni-, tarkvara- või protsessimuudatus tekitab olemasolevates ettevõtetes ja raamatupidajates vajaduse õigeaegse, lihtsas keeles ja rakendatavalt esitatud teadmise järele. Samas võib tasuta veebisisu vähendada valmisolekut maksta üldise algtaseme teabe eest; tasulise pakkumise eristus peab seetõttu seisnema struktuuris, ajavõidus, ajakohasuses ja rakendustoes.
 
-- liikumine tavapärasest raamatupidamisest finantspartnerluse suunas;
-- kasvavate ja keerukamate kliendisegmentide valikuline teenindamine;
-- tehnoloogia, e-arvete, digitaalsete liidestuste ja AI kasutamine;
-- juhtimisinfo, kasumlikkuse ja rahavoo sidumine raamatupidamisega;
-- rahvusvahelise suutlikkuse kasvatamine HLB Global võrgustiku kaudu.
+### Konkurents
 
-### HLB liitumise tähendus
+Konkurents tuleb vähemalt neljast suunast:
 
-Robby & Bobby teatas 10.06.2026, et alates 29.05.2026 tegutseb Eestis HLB Estonia kaubamärgi all ja liitus HLB Global võrgustikuga. Ettevõtte teatel tegutseb HLB enam kui 150 riigis ning pakub ligipääsu rahvusvahelisele kogemusele ja parimatele praktikatele. [4](#allikas-4)
+- raamatupidamisbürood ja üksiknõustajad, kes müüvad personaalseid teenuseid;
+- kutseõppe-, täienduskoolitus- ja e-õppe pakkujad;
+- finants-, maksu- ja õigusteemalised kirjastajad ning tasuta professionaalne veebisisu;
+- raamatupidamistarkvara, e-arvelduse ja AI-põhised tööriistad, mis automatiseerivad osa senisest käsitööst või pakuvad juhiseid otse kasutajale.
 
-Analüütiliselt tähendab see kolme võimalikku strateegilist kasu:
+**Analüütiline järeldus.** Pilvebüroo konkureerib mitte ainult hinnaga, vaid usaldusväärse Eesti-spetsiifilise sisu, eksperdi maine, ligipääsetava keele, kogukonna ning teenuse ja õppe ühendamisega. Automatiseeritud tarkvara on korraga konkurent standardtööle ja täiendav võimalus õppesisu ning nõustamise nõudluse kasvatamiseks.
 
-- **müügiargument:** Eesti klient saab rahvusvaheliste tegevuste puhul ühe tuttava partneri kaudu tuge;
-- **võimekus:** keerukate maksude, aruandluse ja piiriüleste protsesside lahendamiseks on laiem eksperdivõrgustik;
-- **positsioneerimine:** ettevõte saab liikuda väikese raamatupidamisbüroo kuvandist rahvusvahelise professionaalse teenuse pakkuja suunas.
+### Regulatsioonid ja majanduskeskkond
 
-Peamine juhtimisküsimus on, kuidas ühendada uus HLB bränd olemasoleva Robby & Bobby nime, kliendilubaduse ja töökorraldusega nii, et klient mõistaks muutuse praktilist kasu.
+Raamatupidamise seadus sätestab raamatupidamise ja finantsaruandluse põhinõuded. See loob raamatupidamis-, koolitus- ja nõustamisteenuste turule regulatiivse aluse ning teeb õigusaktide ajakohasuse ettevõtte pakkumises sisuliselt kriitiliseks. [14](#allikas-14)
 
-### Strateegilised prioriteedid
+E-arvete keskkond muutus 2025. aastal: kui ettevõte on äriregistris e-arve vastuvõtjaks märgitud, on tal õigus e-arvet nõuda ning vaikimisi tuleb müüjal e-arve esitada, kui pooled ei lepi teisiti kokku. Rahandusministeeriumi andmetel oli 2026. aasta alguses selliseid ettevõtteid ligikaudu 18 000 ja arv kasvas. [16](#allikas-16) Pilvebüroo ise on e-arvete vastuvõtjaks registreeritud. [2](#allikas-2)
 
-1. **Kasumlik skaleerumine:** saada nähtavus kliendi, teenuseliini ja tööetapi kasumlikkusele.
-2. **Digitaalne teenuseplatvorm:** vähendada käsitööd dokumentide, pangatehingute, aruandluse ja kliendisuhtluse töövoogudes.
-3. **Kõrgema väärtusega teenused:** kasvatada finantsjuhtimise, juhtimisaruandluse ja nõustamise osakaalu.
-4. **Rahvusvaheline teenindus:** kasutada HLB võrgustikku e-kaubanduse, investeerimise ja piiriüleste ettevõtete jaoks.
-5. **Talendi ja kvaliteedi juhtimine:** säilitada spetsialistide kompetents, dokumenteerida teadmised ja vähendada võtmeisikuriski.
+Makromajanduses prognoosis Eesti Pank 2026. aasta majanduskasvuks 2,4%; IMFi 2026. aasta hinnangus oli kasv 2,0% ja inflatsioon 4,3%. Erinevad prognoosid kinnitavad mõõduka kasvu ja jätkuva hinnasurve keskkonda, mitte üht kindlat tulemust. [17](#allikas-17) [18](#allikas-18)
 
-## Järeldus
+**Analüütiline järeldus.** Hinnasurve võib muuta väikeettevõtja ettevaatlikumaks koolituse ja nõustamise ostjaks, kuid ebakindlus suurendab samal ajal vajadust rahavoo, hinnastamise, maksude ja juhtimisinfo mõistmise järele. Seetõttu on Pilvebüroo pakkumise nõudlus eri teenuseliinides tõenäoliselt tsükliline erinevalt: kohustuslik või riskivähendav nõu on vastupidavam kui üldisem arengukoolitus.
 
-Robby & Bobby on selge põhitegevusega, kasvava teenusemahuga ja tugeva erialase identiteediga ettevõte. Selle eristus tekib korrektse raamatupidamise ja finantsjuhtimise ühendamisest ning tehnoloogia kasutamisest kliendi otsuste toetamiseks.
+### Tehnoloogia ja andmed
 
-Ettevõtte järgmine arenguetapp ei peaks keskenduma ainult suuremale kliendiarvule. Kõige olulisem on muuta olemasolev kompetents skaleeritavaks: mõõta kliendi- ja teenuseliini kasumlikkust, standardiseerida töövood, rakendada AI-d kontrollitud viisil, kasvatada kõrgema väärtusega nõustamist ning kasutada HLB rahvusvahelist võrgustikku sihipäraselt. Nii saab Robby & Bobby liikuda „raamatupidamise korras hoidmisest“ mõõdetava finantsjuhtimise partnerluse suunas.
+E-arved, digiteeritud kuludokumendid, tarkvarade liidestamine ja andmevahetus muudavad raamatupidamist järjest automatiseeritavamaks. Rahandusministeerium rõhutab, et e-arved võimaldavad suurema tehingumahu korral arvete menetlust oluliselt automatiseerida ja kiirendada. [16](#allikas-16) See on kooskõlas Pilvebüroo avaliku tehnoloogianägemusega. [7](#allikas-7)
+
+AI kasutamisel tuleb arvestada EL-i tehisintellekti määrusega (EL 2024/1689), mille üldine kohaldumisaeg on 02.08.2026, ning isiku- ja finantsandmete töötlemise kohustustega. [19](#allikas-19) Raamatupidamise ja palgaarvestuse kontekstis on andmete õigsus, konfidentsiaalsus, ligipääsuhaldus ja kontrollitavus seega teenuse kvaliteedi lahutamatud väliskeskkonna ootused.
+
+**Analüütiline järeldus.** Tehnoloogia vähendab standardtegevuse väärtust, kuid kasvatab nõudlust protsesside ülesehituse, andmekvaliteedi kontrolli ning tulemuste tõlgendamise järele. Pilvebüroo jaoks tähendab see, et tema digitaalne õpe võib toimida nii tehnoloogiamuutuse selgitajana kui ka kanali kaudu, mille abil kujundada usaldust kõrgema väärtusega nõustamise vastu.
+
+### Tööjõukeskkond
+
+2025. aastal oli Eesti keskmine brutokuupalk 2 092 eurot; finants- ja kindlustustegevuses 3 338 eurot ning kutse-, teadus- ja tehnikaalases tegevuses 2 524 eurot. Töötuse määr oli 7,5%, kuid tööealine elanikkond ja tööjõus osalemine vähenesid. [20](#allikas-20) [21](#allikas-21)
+
+**Analüütiline järeldus.** Raamatupidamis- ja finantsteadmistega spetsialistide tööturul võivad üldine tööjõu vähenemine ja kõrgemate oskuste palgasurve piirata väikese eksperditeenuse kasvuvõimet. Digitaalne õpe, standardiseeritud materjalid ja automatiseeritud protsessid on selles keskkonnas viisid, kuidas eksperdi aega säästa, kuid ei asenda keerukate olukordade erialast otsustust.
+
+## Piirangud ja järeldus
+
+Pilvebüroo OÜ kohta on avalikest andmetest võimalik usaldusväärselt tuvastada registri-, tulu- ja tegevusalaandmeid ning kirjeldada ettevõtte enda veebis nähtavat pakkumist. Puuduvad aga avalikud, kontrollitavad andmed klientide jaotuse, kursuste müügimahu, kliendipidavuse, töötajate lepingulise korralduse, teenuseliinide kasumlikkuse ja operatiivsete võimekuste kohta. Seetõttu ei esita dokument neid hinnanguid faktidena.
+
+Kokkuvõttes on Pilvebüroo teadmuspõhine mikroettevõte, mis on arenenud online-raamatupidamisest ja nõustamisest mitmekanaliliseks finantshariduse, digikirjastamise ja ekspertnõu pakkumiseks. Selle väliskeskkonda määravad regulatiivne raamatupidamiskohustus, maksumuudatused, e-arvete ja AI areng, teadmiste digiteerumine ning kvalifitseeritud tööjõu hind. Ettevõtte eripära seisneb õppesisu ja professionaalse teenuse ühendamises; see hinnang on analüütiline ning põhineb dokumenteeritud pakkumisel ja tulustruktuuril.
 
 ## Allikad
 
-1. <a id="allikas-1"></a>[Robby & Bobby — Meist](https://robbybobby.ee/meist/). Ettevõtte missiooniline positsioneerimine, väärtused, partnerid, meeskond ja kvaliteedipõhimõtted.
-2. <a id="allikas-2"></a>[Robby & Bobby — avaleht](https://robbybobby.ee/). Kliendisegmendid, teenuste ülevaade, kliendilood, 9+ aastat, 300+ klienti ja paberivaba töökorralduse väited.
-3. <a id="allikas-3"></a>[Äripäeva Radar — Robby & Bobby OÜ](https://radar.aripaev.ee/ettevote/324720/robby-and-bobby-ou). Avalikud majandusnäitajad 2018–2025 ja töötajate arv.
-4. <a id="allikas-4"></a>[Robby & Bobby — HLB Estonia kaubamärgi all](https://robbybobby.ee/maaratlemata-en/robbybobby-tegutseb-alates-29-maist-2026-hlb-estonia-kaubamargi-all/). 10.06.2026 avaldatud teade HLB Global võrgustikuga liitumise kohta.
-5. <a id="allikas-5"></a>[Eesti e-Äriregister — Robby & Bobby OÜ](https://ariregister.rik.ee/eng/company/14295172). Registriandmed, tegevusala, osanikud, tegelikud kasusaajad ja aruannete esitamise info.
-6. <a id="allikas-6"></a>[Robby & Bobby — Professionaalsed teenused](https://robbybobby.ee/teenused/professionaalsed-teenused/). Teenused, kliendiprofiilid, paketid ja hinnastamise loogika.
-7. <a id="allikas-7"></a>[Inforegister — Robby & Bobby OÜ](https://www.inforegister.ee/14295172-ROBBY-BOBBY-OU/). Avalik kokkuvõte 2025. aasta tegevusaruandest, sh automatiseerimise ja AI suund.
-8. <a id="allikas-8"></a>[Robby & Bobby — LinkedIn](https://ee.linkedin.com/company/robbybobby). Ettevõtte avalik kirjeldus, klientide ja teenuse fookus.
-9. <a id="allikas-9"></a>[Storybook — Robby & Bobby OÜ kohustused ja võlad](https://ssb.ee/14295172-ROBBY-BOBBY-OU/kohustused-volad-kohtulahendid). Avalik maksuvõla, kohtuvaidluste ja 2026. aasta I kvartali tööjõuinfo kokkuvõte.
+1. <a id="allikas-1"></a>[E-Krediidiinfo — Pilvebüroo OÜ](https://www.e-krediidiinfo.ee/12462195-PILVEB%C3%9CROO-O%C3%9C). 2025. aasta müügitulu, puhaskasum, registri- ja tööjõumaksuandmed.
+2. <a id="allikas-2"></a>[Äripäeva Radar — Pilvebüroo OÜ](https://radar.aripaev.ee/ettevote/244057/pilveburoo-ou). Registriandmed, omand ja juhtimine, 2025. aasta käive ja ärikasum ning maksuvõla teave.
+3. <a id="allikas-3"></a>[Äripäeva Radar — tegevusalade jaotus](https://radar.aripaev.ee/ettevote/244057/pilveburoo-ou). 2024. aasta tegevusalade osakaalud ja müügitulu.
+4. <a id="allikas-4"></a>[Äripäev — ettevõtte asutamise ja tausta käsitlus](https://www.aripaev.ee/borsiuudised/2016/03/12/lennuka-naisinvestori-rikkuse-valem). 2013. aasta asutamise ning asutaja avalik karjääritaust.
+5. <a id="allikas-5"></a>[Pilvebüroo koolitus — juhtimisaruandlus](https://pilvekool.ee/juhtimisaruandlus/). Ettevõtte enda kirjeldus blogi, teenuse, meeskonna, lugejaskonna, meililisti ja kogukonna kohta.
+6. <a id="allikas-6"></a>[Pilvebüroo koolitus — e-raamatute kategooria](https://pilvekool.ee/tootekategooria/e-raamat/). Veebipoe tootevalik ja e-raamatute arv.
+7. <a id="allikas-7"></a>[Pilvebüroo — kaasaegne raamatupidamine](https://pilvebyroo.ee/kaasaegne-raamatupidamine/). Ettevõtte avalik käsitlus automatiseerimisest, finantsinfost, suhtlusest ja IT-oskustest.
+8. <a id="allikas-8"></a>[Pilvebüroo koolitus — raamatupidamise käsiraamat](https://pilvekool.ee/courses/raamatupidajate-profiklubi/raamat/raamatupidamise-kasiraamat-e-raamat/). Digitaalse õppekogu näide.
+9. <a id="allikas-9"></a>[Pilvebüroo — finantsjuhtimise teenuse hinnastamine](https://pilvebyroo.ee/kuidas-hinnastada-finantsjuhtimise-teenust-ilma-et-klient-utleks-ei/). 08.04.2026 blogipostitus: marginaal, rahavoog, kulustruktuur ja finantsnõu väärtustamine.
+10. <a id="allikas-10"></a>[Pilvebüroo — väikeettevõtja toetamine](https://pilvebyroo.ee/kuidas-raamatupidaja-saab-aidata-vaikeettevotjat-10-soovitust/). 16.03.2023 blogipostitus: raamatupidamise, deklaratsioonide, aruannete ja ettevõtja toetamise seos.
+11. <a id="allikas-11"></a>[Inforegister — Pilvebüroo OÜ](https://www.inforegister.ee/12462195-PILVEBUROO-OU/). 2023. aasta tegevusaruande avalik kokkuvõte ning ajalooline tegevusalade müügitulu.
+12. <a id="allikas-12"></a>[Pilvebüroo koolitus — MTÜ maksud ja raamatupidamine](https://pilvekool.ee/pood/mty-maksud-ja-raamatupidamine/). Näide sihtrühma- ja tooteteemast.
+13. <a id="allikas-13"></a>[Pilvebüroo koolitus — palgaarvestus](https://pilvekool.ee/pood/palgaarvestus/). Näide palgaarvestuse, mitteresidentide ja lähetuste teemalisest tootest.
+14. <a id="allikas-14"></a>[Raamatupidamise seadus — Riigi Teataja](https://www.riigiteataja.ee/akt/107012025011?kuvaKohtulahendid=true). Raamatupidamise ja finantsaruandluse korraldamise põhinõuded ning raamatupidamiskohustuslaste ring.
+15. <a id="allikas-15"></a>[Maksu- ja Tolliamet — maksumuudatused 2026](https://www.emta.ee/uudised/maksumuudatused-2026). 2026. aastal kehtivad käibemaksumäärad.
+16. <a id="allikas-16"></a>[Rahandusministeerium — e-arvete nõuded](https://www.fin.ee/finantspoliitika-valissuhted/arvestusvaldkond/raamatupidamise-algdokumendid-arved-e-arved). E-arvete õiguslik muutus, levik ja automatiseerimise mõju.
+17. <a id="allikas-17"></a>[Eesti Pank — 2026. aasta majandusprognoos](https://www.eestipank.ee/press/prognoos-pusiva-majanduskasvu-saavutamiseks-vaja-kindlust-investeerimisel-16062026). Eesti Panga 2026. aasta kasvuprognoos.
+18. <a id="allikas-18"></a>[Eesti Pank — IMFi 2026. aasta visiidi kokkuvõte](https://www.eestipank.ee/press/eesti-vabariik-imfi-delegatsiooni-artikkel-iv-alusel-2026-aastal-tehtud-visiidi-kokkuvottev-avaldus-09062026). IMFi majanduskasvu ja inflatsiooni hinnang.
+19. <a id="allikas-19"></a>[ELi tehisintellekti määrus (EL) 2024/1689 — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng). AI kasutamise ühtsed EL-i reeglid ja kohaldumise ajakava.
+20. <a id="allikas-20"></a>[Statistikaamet — keskmine palk 2025](https://www.stat.ee/et/uudised/keskmine-palk-tousis-aastaga-56). Palgatase Eestis ning tegevusalade võrdlus.
+21. <a id="allikas-21"></a>[Statistikaamet — töötuse määr 2025](https://stat.ee/et/uudised/tootuse-maar-oli-mullu-75). Tööhõive, töötuse ja tööjõus osalemise näitajad.

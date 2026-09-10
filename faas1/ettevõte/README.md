@@ -2,7 +2,7 @@
 
 Ettevõtte kirjeldused on loodud **AI** poolt kasutades alljärgnevat **prompti**:
 
-Koosta ettevõtte ülevaade vastavalt projekti dokumentatsioonis toodud reeglitele. Ettevõte on `robbybobby.ee`. Kasuta kogu internetis olevat asjakohast avalikku infot, mitte ainult ettevõtte kodulehte. Käsitle vähemalt ettevõtte tausta, visiooni, missiooni, tegevusalasid, teenuseid, strateegilist suunda, kliente, väärtuspakkumist, organisatsiooni, ärimudelit, majandusnäitajaid ja muud ettevõtte kirjeldamiseks vajalikku infot. Erista allikapõhised faktid analüütilistest järeldustest ning lisa kasutatud allikad.
+Koosta ettevõtte ülevaade vastavalt projekti dokumentatsioonis toodud reeglitele. Ettevõte on `https://pilvebyroo.ee/`. Kasuta kogu internetis olevat asjakohast avalikku infot, mitte ainult ettevõtte kodulehte. Käsitle vähemalt ettevõtte tausta, visiooni, missiooni, tegevusalasid, teenuseid, strateegilist suunda, kliente, väärtuspakkumist, organisatsiooni, ärimudelit, majandusnäitajaid ja muud ettevõtte kirjeldamiseks vajalikku infot. Erista allikapõhised faktid analüütilistest järeldustest ning lisa kasutatud allikad.
 
 Selle ülesande tulemusena loo ainult ettevõtte ja ärikeskkonna kirjeldus. 
 Ärikeskkonna kirjeldus käsitleb ainult väliskeskkonda -- turg, nõudlus, konkurents, regulatsioonid ja majanduskeskkond, tehnoloogia, tööjõud.
