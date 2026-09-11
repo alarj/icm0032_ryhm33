@@ -75,6 +75,16 @@ Strateegilise suuna nähtavad elemendid on e-raamatute, videokursuste ja Profikl
 
 **Analüütiline järeldus.** Digitaalne sisu ja kogukond võimaldavad eksperdi mõjuulatust suurendada ilma sama palju üks-ühele tööd lisamata. Samal ajal sõltub selline positsioon tugevalt sisu ajakohasusest ja eksperditeadmise usaldusväärsusest.
 
+### Võrdlus omaniku esitatud visiooni ja missiooniga
+
+Pärast lähtekokkuvõtete koostamist esitas ettevõtte omanik järgmise visiooni ja missiooni:
+
+> **Ettevõtte visioon:** Olla Eesti ettevõtjate ja finantsspetsialistide jaoks väga praktiline digitaalne teadmisteplatvorm, kus klient saab talle vajaliku teadmise kiiresti ja võimalikult personaalselt.
+>
+> **Missioon:** Muuta keerulised ettevõtlus-, finants- ja regulatsiooniteemad praktilisteks teadmisteks ning kasutada tehnoloogiat selleks, et õige sisu jõuaks õigel ajal õige inimeseni.
+
+**Hinnang.** Omaniku esitatud visioon ja missioon on koondülevaate analüütilise järeldusega kooskõlas. Need kinnitavad praktilise ekspertteadmise digitaalset vahendamist ning ettevõtjate ja finantsspetsialistide teenindamist. Sõnastus laiendab varasemat fookust raamatupidajatelt ja väikeettevõtjatelt ettevõtjate ning finantsspetsialistideni laiemalt. Rõhk „võimalikult personaalselt” ja „õigel ajal õige inimeseni” täpsustab strateegilist suunda personaliseerimise poole. AI, automatiseerimine ja rutiini vähendamine ei ole eraldi nimetatud, kuid tehnoloogia kasutamise üldisem sõnastus ei ole varasema käsitlusega vastuolus.
+
 ## Tegevusalad, teenused ja väärtuspakkumine
 
 ### Tegevusalad ja teenused
