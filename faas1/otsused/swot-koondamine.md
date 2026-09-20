@@ -1,19 +1,22 @@
-# SWOT koondamine
+# SWOT analüüsi kinnitamine
 
 ## Dokumendi päritolu
-See juhend on loodud valdavalt Claude.ai poolt.
+See juhend on loodud rühma liikmete poolt
 
 ## Kontekst
-Igaüks tegi AI abiga oma SWOT versiooni, need tuli ühtlustada üheks rühma SWOT-iks.
+Iga rühma liige tegi AI abiga omapoolse ettevõtte SWOT analüüsi, need koondasime samuti AI abil üheks ettevõtte SWOT analüüsiks.
 
 ## AI sisend
-Vt `ai-sisendid/swot-jaan.md`, `swot-mari.md`, `swot-peeter.md` — igaüks küsis AI-lt sarnase struktuuriga SWOT-i, tulemused kattusid osaliselt, erinesid nõrkuste ja ohtude sõnastuses.
+
+AI abil koostasime SWOT analüüsi mustandi `swot/swot_koond.md`
 
 ## Rühma otsus
-Võrreldi kolme versiooni, valiti igast kategooriast kõige asjakohasemad/korduvad punktid, sõnastati need ühtselt ümber. Lõplik versioon: `SWOT/swot-lõplik.md`
+Lähtume edaspidi omaniku swot analüüsist aga tugevuste ja võimaluste juures arvestame ka AI poolt pakutuga. 
+Nõrkuste ja ohtude puhul jätame AI poolt toodud variandid kõrvale
 
 ## Põhjendus
-Kattuvad punktid näitasid, et need on tõenäoliselt olulised; erinevad nurgad andsid täiendavat väärtust, mida ükski üksik AI väljund ei pakkunud.
+Kõrvutades kahte SWOT analüüsi on näha, et kõige paremini kattuvad tugevused ja ka võimalused.  Nõrkuste ja ohtude osas on AI ja inimese koostatud analüüside erinevus märkimisväärne. Üks põhjus on eeldatavalt see, et ettevõtte avalikus kirjelduses on tugevused ja võimalused paremini kirjeldatud, nõrkuste ja ohtude osas pidi AI tuginema eeldustel ja arvamustel, mis ei pruugi reaalse olukorraga kokku minna.
 
 ## Autor(id), kuupäev
-...
+
+20.09.2026

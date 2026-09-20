@@ -1,1 +1,0 @@
-# Ettevõtte kirjeldus
