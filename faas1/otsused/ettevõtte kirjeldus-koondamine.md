@@ -1,19 +1,21 @@
 # Ettevõtte kirjeldus - kinnitamine
 
 ## Dokumendi päritolu
-See juhend on loodud valdavalt Claude.ai poolt.
+See juhend on loodud rühma liikmete poolt
 
 ## Kontekst
 Igaüks tegi AI abiga oma ettevõtte kirjelduse versiooni, need tuli ühtlustada üheks rühma ettevõtte kirjelduseks.
 
 ## AI sisend
-Vt `ettevõte/ülevaade-alar.md`, `ülevaade-....md`, `ülevaade-....md` — igaüks küsis AI-lt sarnase struktuuriga ettevõtte kirjelduse, tulemused ...
+Vt `ettevõte/ülevaade-alar.md`, `ettevõte/virge_gemini.md`, `ettevõte/Ettevõtte_ülevaade_Sten-Erik_Faas1.md` — igaüks küsis AI-lt sarnase struktuuriga ettevõtte kirjelduse.
+AI abil koostasime ülevaate koondi mustandi `ettevõte/ülevaade_koond.md`
 
 ## Rühma otsus
-Võrreldi kolme versiooni, valiti igast kategooriast kõige asjakohasemad/korduvad punktid, sõnastati need ühtselt ümber. Lõplik versioon: `ettevõte/ülevaade-lõplik.md`
+Otsustasime, et ettevõtte missiooni ja visioonina kasutame ettevõtte omaniku poolt pakutud variante.
 
 ## Põhjendus
-Kattuvad punktid näitasid, et need on tõenäoliselt olulised; erinevad nurgad andsid täiendavat väärtust, mida ükski üksik AI väljund ei pakkunud.
+AI poolt pakutud visioon ja missioon ei ole inimese poolt loodutega otseses vastuolus kuid ettevõtte omaniku poolt pakutud variandid on arusaadavamad ja iseloomustavad ettevõtte tegevust täpsemalt.
 
 ## Autor(id), kuupäev
-...
+
+18.09.2026
